@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/row_margin">
+
+    <TextView
+        android:id="@+id/txtTypeSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/row_margin"
+        android:layout_marginRight="30dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/text_padding"
+        android:text="TextView"
+        android:textColor="@color/colorTextType"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txtTypeSelect"
+        android:background="?android:attr/listDivider" />
+
+</RelativeLayout>

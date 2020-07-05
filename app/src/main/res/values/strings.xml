@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pro Note</string>
+    <string name="view_name">Xem ghi chú</string>
+    <string name="edit_note">Chỉnh sửa</string>
+    <string name="type_manage">Quản lí thể loại</string>
+    <string name="type_select">Chọn thể loại</string>
+    <string name="garbage">Thùng rác</string>
+    <string name="view_garbage">Xem</string>
+    <string name="setting">Cài đặt</string>
+
+    <string name="header_expand_0">Tất cả</string>
+    <string name="header_expand_1">Yêu thích</string>
+    <string name="header_expand_2">Khóa</string>
+    <string name="header_expand_3">Thùng rác</string>
+    <string name="header_expand_4">Quản lý thể loại</string>
+    <string name="header_expand_5">Danh sách thể loại</string>
+
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_move">Move</string>
+
+    <string name="garbage_info">Các ghi chú sẽ bị xóa vĩnh viễn sau 15 ngày</string>
+</resources>

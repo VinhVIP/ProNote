@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dialog_margin"
+    >
+
+    <TextView
+        android:id="@+id/tvsx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Sắp xếp theo"
+        android:textColor="#ff0000"
+        android:textSize="18dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_sx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvsx">
+
+        <RadioButton
+            android:id="@+id/radio_button_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Tên" />
+
+        <RadioButton
+            android:id="@+id/radio_button_time_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Thời gian tạo" />
+
+        <RadioButton
+            android:id="@+id/radio_button_time_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Thời gian chỉnh sửa" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/radio_group_sx"
+        android:layout_margin="@dimen/row_margin"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/tvtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider4"
+        android:layout_margin="8dp"
+        android:text="Thứ tự"
+        android:textColor="#ff0000"
+        android:textSize="18dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtt">
+
+        <RadioButton
+            android:id="@+id/radio_button_ascending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Tăng dần" />
+
+        <RadioButton
+            android:id="@+id/radio_button_descending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Giảm dần" />
+    </RadioGroup>
+
+    <Button
+        android:background="@drawable/button_active"
+        android:id="@+id/btnSaveSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group_tt"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Xác nhận" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_all"
+            android:title="Tất cả ghi chú" />
+        <item
+            android:id="@+id/nav_item_favorite"
+            android:title="Yêu thích" />
+        <item
+            android:id="@+id/nav_item_lock"
+            android:title="Khóa" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_manage_type"
+            android:title="Quản lí thể loại" />
+        <item
+            android:id="@+id/nav_item_expand"
+            app:actionLayout="@layout/expand_list_view"
+            android:title="Danh sách thể loại"
+            app:showAsAction="always" />
+    </group>
+</menu>

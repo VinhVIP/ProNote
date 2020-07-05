@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/row_margin">
+
+    <ImageView
+        android:id="@+id/imgListChild"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="28dp"
+        android:src="@drawable/ic_list_child" />
+
+    <TextView
+        android:id="@+id/txtExpandChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgListChild"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Không xác định"
+        android:textSize="16dp" />
+</RelativeLayout>
